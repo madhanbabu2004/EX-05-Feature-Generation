@@ -26,7 +26,7 @@ df=pd.read_csv("data.csv")
 
 df
 ```
-## Feature Encoding
+# Feature Encoding
 ```
 from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
 from sklearn.preprocessing import OneHotEncoder
@@ -64,7 +64,7 @@ df1=ohe.fit_transform(df1[["City"]])
 df1
 
 ```
-## Feature Scaling
+# Feature Scaling
 ```
 df2=df.copy()
 from sklearn.preprocessing import MinMaxScaler
@@ -137,7 +137,7 @@ qf0=pd.DataFrame(sc.fit_transform(qf1),columns=['id', 'bin_1', 'bin_2', 'nom_0',
 qf0
 ```
 
-## Titanic_dataset.csv:
+# Titanic_dataset.csv:
 ```
 from sklearn.preprocessing import StandardScaler
 sc1=StandardScaler()
@@ -186,7 +186,7 @@ rf1=rf.copy()
 rf1['PassengerId'] = le.fit_transform(rf1[['PassengerId']])
 rf1['Survived'] = le.fit_transform(rf1[['Survived']])
 ```
-## OUTPUT:
+
 ```
 Data.csv
 Initial dataset:
