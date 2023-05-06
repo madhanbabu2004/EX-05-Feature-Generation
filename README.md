@@ -227,7 +227,8 @@ rf5
 ```
 
 
-# OUPUT
+##  OUTPUT
+
 ![output](./a.png)
 ![output](./b.png)
 ![output](./c.png)
